@@ -1,0 +1,149 @@
+.boxNav{
+    display: flex;
+}
+
+.logoNoodle{
+font-size: 45px;
+color: aliceblue;
+background-color: greenyellow;
+margin-top: 10%;
+margin-left: 15%;
+width: 280px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.buttonLum{
+    position: absolute;
+    right: 1%;
+    top:8%;
+}
+
+.linkNoodle{
+    margin-top: 5%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+}
+
+.link2{
+    border: black solid 1px;
+    background-color: rgb(149, 240, 208);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    height: 45px;
+    width: 85px;
+}
+
+
+.link2:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+
+
+.boxSearch{
+    width: 50%;
+    
+}
+
+.inputNoodl{
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 350px;
+    height: 20%;
+    font-size: 25px;
+    border: none;
+    border-bottom: solid 1px black;
+    background-color: rgb(50, 165, 46);
+    color: white;
+}
+
+.buttunNoodl{
+    margin-left: 2%;
+    width: 5%;
+    height: 15%;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(181, 209, 190);
+    color: rgb(156, 13, 13);
+    border: none;
+}
+
+
+
+.buttunNoodl:hover{
+    color: white;
+    background-color: black;
+}
+
+.searchAll{
+    shape-margin: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    
+    margin-left: 2.5%;
+    margin-top: 8%;
+    background-color: rgb(126, 197, 144);
+}
+
+.texteSearch{
+    font-size: medium;
+}
+
+.resultsBox{
+    border: 2px solid rgba(0, 0, 0, 0.336);
+    width: 20%;
+    height: 65px;
+    margin-bottom: 2%;
+}
+
+.titreResults{
+    color: rgb(7, 59, 5);
+}
+
+.resultsBox2{
+    border: 2px solid black;
+    width: 40%;
+    height: fit-content;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(151, 247, 175);
+}
+
+.resultsBox3{
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.searchAll2{
+    shape-margin: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    
+    margin-left: 2.5%;
+    margin-top: 8%;
+  
+}
